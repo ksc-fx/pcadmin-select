@@ -95,6 +95,8 @@
         }
 
         .option-list {
+            margin-top: 5px;
+            position: relative;
             overflow: scroll;
             height: 150px;
             border-radius: 2px;
@@ -104,6 +106,10 @@
 
             .list-panel {
                 padding: 0 10px;
+                position: absolute;
+                overflow: scroll;
+                width: 100%;
+
                 .option {
                     font-size: 14px;
                     padding: 8px 10px;
