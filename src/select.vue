@@ -1,5 +1,5 @@
 <template>
-    <div class="select" __vuec__ :style="style">
+    <div class="pa-select" __vuec__ :style="style">
         <div class="container">
             <div class="select-label">
                 <slot name="label"></slot>
@@ -25,7 +25,7 @@
 </template>
 <style lang="less" scoped>
     @whiteColor: #ffffff;
-    .select[__vuec__] {
+    .pa-select[__vuec__] {
 
         ul {
             padding: 5px 0;
