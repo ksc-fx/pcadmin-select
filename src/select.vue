@@ -44,6 +44,7 @@
 
             .select-value {
                 flex: 1;
+                position: relative;
                 .input-value {
                     position: relative;
 
@@ -96,19 +97,18 @@
 
         .option-list {
             margin-top: 5px;
-            position: relative;
+            position: absolute;
+            z-index: 9999;
             overflow: scroll;
             height: 150px;
             border-radius: 2px;
             background-color: #fff;
             box-shadow: 0 2px 4px rgba(0,0,0,.12), 0 0 6px rgba(0,0,0,.04);
             box-sizing: border-box;
+            width: 100%;
 
             .list-panel {
                 padding: 0 10px;
-                position: absolute;
-                overflow: scroll;
-                width: 100%;
 
                 .option {
                     font-size: 14px;
